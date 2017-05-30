@@ -1,0 +1,32 @@
+.warning {
+  &__wrapper {
+    position: fixed;
+    top: 71px;
+    left: 10px;
+    right: 10px;
+    z-index: 12;
+  }
+  &__item  {
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 4px 10px;
+    color: @main-color-alt;
+    max-width: 480px;
+    min-height: 26px;
+    display: flex;
+    align-items: center;
+    border-radius: @radius;
+    background-color: @error;
+    box-shadow: 0 4px 9px 0 fade(#000, 33%);
+    &+& {
+      margin-top: 10px;
+    }
+    i {
+      font-size: 26px;
+    }
+  }
+  &__error {
+    font-weight: bold;
+    margin: 0 10px;
+  }
+}

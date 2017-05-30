@@ -1,0 +1,31 @@
+.status {
+  font-size: 18px;
+  padding: 4px 10px;
+  display: inline-block;
+  border-radius: @radius;
+  &__new {
+    background: @status-new;
+  }
+  &__approved {
+    background: @status-approved;
+  }
+  &__processed {
+    background: @status-approved;
+  }
+  &__on_approve {
+    background: @status-on-approve;
+  }
+  &__cancelled {
+    background: @status-cancelled;
+  }
+  &__archived {
+    background: @status-archived;
+  }
+  &__rejected {
+    background: @status-decline;
+  }
+  &__small {
+    padding: 2px 8px;
+    font-size: 14px;
+  }
+}

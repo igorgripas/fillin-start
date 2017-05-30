@@ -1,0 +1,108 @@
+.nav {
+  ._clearfix();
+  border-left: 1px solid @nav-border;
+  &__menu {
+    list-style: none;
+    float: left;
+    li {
+      float: left;
+    }
+    a {
+      border-right: 1px solid @nav-border;
+      font-size: 16px;
+      font-weight: 600;
+      display: flex;
+      padding: 0 22px;
+      height: 60px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      max-width: 140px;
+      @media (max-width: 1250px) {
+        padding: 0 15px;
+      }
+      @media (max-width: 900px) {
+        padding: 0 5px;
+      }
+      &.active {
+        color: @nav-active-color;
+        background: @nav-active-bg;
+      }
+    }
+  }
+  &__counter {
+    background: @nav-counter-bg;
+    color: @nav-counter-color;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    position: absolute;
+    right: 6px;
+    top: 10px;
+    line-height: 15px;
+    text-align: center;
+    font-size: 9px;
+    font-weight: bold;
+  }
+  &__user{
+    ._vertical();
+    float: right;
+    height: 60px;
+    font-size: 0;
+    position: relative;
+    padding-right: 14px;
+    &-img {
+      width: 30px;
+      height: 30px;
+      background: @theme-color;
+      display: inline-block;
+      vertical-align: middle;
+      border-radius: 50%;
+      position: relative;
+      margin-right: 7px;
+      i {
+        position: absolute;
+        left: 6px;
+        top: 5px;
+        font-size: 21px;
+        color: @nav-user-avatar-color;
+      }
+    }
+    &-name {
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 14px;
+      cursor: pointer;
+      position: relative;
+      max-width: 230px;
+      @media (max-width: 1150px) {
+        display: none;
+      }
+    }
+    .icon-arrow-small {
+      font-size: 6px;
+      right: 0;
+      position: absolute;
+      top: 28px;
+    }
+  }
+  &__mob {
+    overflow: hidden;
+  }
+  &__burger {
+    ._vertical();
+    height: 60px;
+    width: 60px;
+    float: right;
+    @media (max-width: 375px) {
+      width: 45px;
+    }
+    button {
+      outline: none;
+      background: 0;
+      border: 0;
+      cursor: pointer;
+    }
+  }
+}

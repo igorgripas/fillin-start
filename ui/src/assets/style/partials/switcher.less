@@ -1,0 +1,78 @@
+.switcher {
+  position: relative;
+  width: 71px;
+  user-select: none;
+  display: inline-block;
+  &__checkbox {
+    position: absolute;
+    opacity: 0;
+    &:checked {
+      & + .switcher {
+        &__label {
+          .switcher__inner {
+            margin-left: 0;
+          }
+          .switcher__switch {
+            left: 100%;
+            margin-left: -33px;
+          }
+        }
+      }
+    }
+  }
+  &__label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    height: 35px;
+    border-radius: 100px;
+  }
+  &__inner {
+    display: block;
+    width: 200%;
+    color: #fff;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+    .icon-green-check {
+      color: #b7f042;
+      font-size: 17px;
+      margin: 9px 10px 0;
+      display: inline-block;
+    }
+    .icon-exit {
+      color: #ffbfbf;
+      float: right;
+      margin-top: 8px;
+      margin-right: 13px;
+      font-size: 18px;
+    }
+  }
+  &__positive {
+    background: @success;
+    width: 50%;
+    display: block;
+    float: left;
+    height: 35px;
+  }
+  &__negative {
+    background: @error;
+    width: 50%;
+    display: block;
+    float: left;
+    height: 35px;
+  }
+  &__switch {
+    display: block;
+    width: 29px;
+    height: 29px;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5), inset 0 1px 0 0 #ffffff;
+    position: absolute;
+    top: 3px;
+    bottom: 0;
+    left: 3px;
+    margin-left: 0;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+  }
+}

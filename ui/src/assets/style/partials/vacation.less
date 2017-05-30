@@ -1,0 +1,28 @@
+.vacation {
+  &__holder {
+    padding-left: 64px;
+    background: url("../../img/vacation.png") no-repeat left center;
+    font-size: 14px;
+    margin: 58px 0 21px;
+  }
+  &__text {
+    padding-top: 5px;
+  }
+  &__days {
+    color: @success;
+    span {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .vacation {
+    &__holder {
+      .aside & {
+        display: none;
+      }
+    }
+  }
+}

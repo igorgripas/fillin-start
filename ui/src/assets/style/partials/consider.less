@@ -1,0 +1,47 @@
+.consider {
+  list-style: none;
+  li {
+    margin-top: 15px;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  &__head {
+    font-size: 18px;
+    color: @success;
+    display: flex;
+    align-items: center;
+    &.negative {
+      color: @error;
+    }
+    i {
+      font-size: 21px;
+      margin-right: 4px;
+      &.icon-waiting {
+        font-size: 25px;
+      }
+    }
+  }
+  &__comment {
+    font-size: 18px;
+    padding-left: 66px;
+    margin-top: 6px;
+    position: relative;
+  }
+  &__img {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: @theme-color;
+    border: 1px solid @theme-color;
+    position: relative;
+    margin-right: 8px;
+    i {
+      color: @secondary-color;
+      position: absolute;
+      font-size: 18px;
+      bottom: 2px;
+      left: 4px;
+    }
+  }
+}

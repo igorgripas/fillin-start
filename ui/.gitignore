@@ -1,0 +1,13 @@
+# Don't check auto-generated stuff into git
+/build
+node_modules
+npm-debug.log
+node
+pom.properties
+target
+dist
+dist/
+dist/lang/
+.idea
+*.log
+.editorconfig

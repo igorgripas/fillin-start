@@ -1,0 +1,50 @@
+.popup {
+  &__holder {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: @popup-bg;
+    z-index: 9;
+    overflow: auto;
+    display: none;
+    &.active {
+      display: block;
+    }
+  }
+  &__wrapper {
+    background: @block-bg;
+    box-shadow: @shadow-alt;
+    border: solid 1px @input-border;
+    border-radius: @radius;
+    padding: 9px 20px 20px 30px;
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 20px;
+  }
+  &__close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: 0;
+    border: 0;
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 610px) and (max-width: 768px){
+  .popup {
+    &__wrapper {
+      width: 400px;
+      margin: 150px auto 20px;
+    }
+  }
+}
+@media (min-width: 610px) {
+  .popup {
+    &__wrapper {
+      min-width: 400px;
+    }
+  }
+}

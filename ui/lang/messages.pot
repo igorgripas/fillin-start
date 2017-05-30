@@ -1,0 +1,831 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-30 15:07+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Велика Британія"
+msgstr ""
+
+msgid "Сполучені Штати Америки"
+msgstr ""
+
+msgid "Україна"
+msgstr ""
+
+msgid "Афганістан"
+msgstr ""
+
+msgid "Аландські острови"
+msgstr ""
+
+msgid "Албанія"
+msgstr ""
+
+msgid "Алжир"
+msgstr ""
+
+msgid "Американський Самоа"
+msgstr ""
+
+msgid "Андорра"
+msgstr ""
+
+msgid "Ангола"
+msgstr ""
+
+msgid "Ангілья"
+msgstr ""
+
+msgid "Антарктида"
+msgstr ""
+
+msgid "Антигуа і Барбуда"
+msgstr ""
+
+msgid "Аргентина"
+msgstr ""
+
+msgid "Вірменія"
+msgstr ""
+
+msgid "Аруба"
+msgstr ""
+
+msgid "Австралія"
+msgstr ""
+
+msgid "Австрія"
+msgstr ""
+
+msgid "Азербайджан"
+msgstr ""
+
+msgid "Багамські о-ва"
+msgstr ""
+
+msgid "Бахрейн"
+msgstr ""
+
+msgid "Бангладеш"
+msgstr ""
+
+msgid "Барбадос"
+msgstr ""
+
+msgid "Білорусь"
+msgstr ""
+
+msgid "Бельгія"
+msgstr ""
+
+msgid "Белізу"
+msgstr ""
+
+msgid "Бенін"
+msgstr ""
+
+msgid "Бермудські острови"
+msgstr ""
+
+msgid "Бутан"
+msgstr ""
+
+msgid "Багатонаціональна держава Болівія"
+msgstr ""
+
+msgid "Бонайре, Сінт-Естатіус і Саба"
+msgstr ""
+
+msgid "Боснія і Герцеговина"
+msgstr ""
+
+msgid "Ботсвана"
+msgstr ""
+
+msgid "острів Буве"
+msgstr ""
+
+msgid "Бразилія"
+msgstr ""
+
+msgid "Британська територія в Індійському океані"
+msgstr ""
+
+msgid "Бруней"
+msgstr ""
+
+msgid "Болгарія"
+msgstr ""
+
+msgid "Буркіна-Фасо"
+msgstr ""
+
+msgid "Бурунді"
+msgstr ""
+
+msgid "Камбоджа"
+msgstr ""
+
+msgid "Камерун"
+msgstr ""
+
+msgid "Канада"
+msgstr ""
+
+msgid "Кабо-Верде"
+msgstr ""
+
+msgid "Кайманові острови"
+msgstr ""
+
+msgid "Центрально-Африканська Республіка"
+msgstr ""
+
+msgid "Чад"
+msgstr ""
+
+msgid "Чилі"
+msgstr ""
+
+msgid "Китай"
+msgstr ""
+
+msgid "острів Різдва"
+msgstr ""
+
+msgid "Колумбія"
+msgstr ""
+
+msgid "Коморські острови"
+msgstr ""
+
+msgid "Конго"
+msgstr ""
+
+msgid "Демократична республіка Конго"
+msgstr ""
+
+msgid "острови Кука"
+msgstr ""
+
+msgid "Коста-Ріка"
+msgstr ""
+
+msgid "Кот д'Івуар"
+msgstr ""
+
+msgid "Хорватія"
+msgstr ""
+
+msgid "Куба"
+msgstr ""
+
+msgid "Кюрасао"
+msgstr ""
+
+msgid "Кіпр"
+msgstr ""
+
+msgid "Чеська Республіка"
+msgstr ""
+
+msgid "Данія"
+msgstr ""
+
+msgid "Джібуті"
+msgstr ""
+
+msgid "Домініка"
+msgstr ""
+
+msgid "Домініканська республіка"
+msgstr ""
+
+msgid "Еквадор"
+msgstr ""
+
+msgid "Єгипет"
+msgstr ""
+
+msgid "Сальвадор"
+msgstr ""
+
+msgid "Екваторіальна Гвінея"
+msgstr ""
+
+msgid "Еритрея"
+msgstr ""
+
+msgid "Естонія"
+msgstr ""
+
+msgid "Ефіопія"
+msgstr ""
+
+msgid "Фолклендські острови"
+msgstr ""
+
+msgid "Фарерські острови"
+msgstr ""
+
+msgid "Фіджі"
+msgstr ""
+
+msgid "Фінляндія"
+msgstr ""
+
+msgid "Франція"
+msgstr ""
+
+msgid "Французька Гвіана"
+msgstr ""
+
+msgid "Французька Полінезія"
+msgstr ""
+
+msgid "Французькі Південні Території"
+msgstr ""
+
+msgid "Габон"
+msgstr ""
+
+msgid "Гамбія"
+msgstr ""
+
+msgid "Грузія"
+msgstr ""
+
+msgid "Німеччина"
+msgstr ""
+
+msgid "Гана"
+msgstr ""
+
+msgid "Гібралтар"
+msgstr ""
+
+msgid "Греція"
+msgstr ""
+
+msgid "Гренландія"
+msgstr ""
+
+msgid "Гренада"
+msgstr ""
+
+msgid "Гваделупа"
+msgstr ""
+
+msgid "Гуам"
+msgstr ""
+
+msgid "Гватемала"
+msgstr ""
+
+msgid "Гернси"
+msgstr ""
+
+msgid "Гвінея"
+msgstr ""
+
+msgid "Гвінея-Бісау"
+msgstr ""
+
+msgid "Гайана"
+msgstr ""
+
+msgid "Гаїті"
+msgstr ""
+
+msgid "Гондурас"
+msgstr ""
+
+msgid "ГонконгKong"
+msgstr ""
+
+msgid "Угорщина"
+msgstr ""
+
+msgid "Ісландія"
+msgstr ""
+
+msgid "Індія"
+msgstr ""
+
+msgid "Індонезія"
+msgstr ""
+
+msgid "Ісламська Республіка Іран"
+msgstr ""
+
+msgid "Ірак"
+msgstr ""
+
+msgid "Ірландія"
+msgstr ""
+
+msgid "Острів Мен"
+msgstr ""
+
+msgid "Ізраїль"
+msgstr ""
+
+msgid "Італія"
+msgstr ""
+
+msgid "Ямайка"
+msgstr ""
+
+msgid "Японія"
+msgstr ""
+
+msgid "Джерсі"
+msgstr ""
+
+msgid "Йорданія"
+msgstr ""
+
+msgid "Казахстан"
+msgstr ""
+
+msgid "Кенія"
+msgstr ""
+
+msgid "Кірібаті"
+msgstr ""
+
+msgid "Корейська Народно-Демократична Республіка"
+msgstr ""
+
+msgid "Республіка Корея"
+msgstr ""
+
+msgid "Кувейт"
+msgstr ""
+
+msgid "Киргизія"
+msgstr ""
+
+msgid "Лаоська Народно-Демократична Республіка"
+msgstr ""
+
+msgid "Латвія"
+msgstr ""
+
+msgid "Ліван"
+msgstr ""
+
+msgid "Лесото"
+msgstr ""
+
+msgid "Ліберія"
+msgstr ""
+
+msgid "Лівійська Арабська Джамахірія"
+msgstr ""
+
+msgid "Ліхтенштейн"
+msgstr ""
+
+msgid "Литва"
+msgstr ""
+
+msgid "Люксембург"
+msgstr ""
+
+msgid "Макао"
+msgstr ""
+
+msgid "Македонія"
+msgstr ""
+
+msgid "Мадагаскар"
+msgstr ""
+
+msgid "Малаві"
+msgstr ""
+
+msgid "Малайзія"
+msgstr ""
+
+msgid "Мальдіви"
+msgstr ""
+
+msgid "Малі"
+msgstr ""
+
+msgid "Мальта"
+msgstr ""
+
+msgid "Маршаллові острови"
+msgstr ""
+
+msgid "Мартинюк"
+msgstr ""
+
+msgid "Мавританія"
+msgstr ""
+
+msgid "Маврикій"
+msgstr ""
+
+msgid "Майотта"
+msgstr ""
+
+msgid "Мексика"
+msgstr ""
+
+msgid "Мікронезія, Федеративні Штати"
+msgstr ""
+
+msgid "Молдова"
+msgstr ""
+
+msgid "Монако"
+msgstr ""
+
+msgid "Монголія"
+msgstr ""
+
+msgid "Чорногорія"
+msgstr ""
+
+msgid "Монсеррат"
+msgstr ""
+
+msgid "Марокко"
+msgstr ""
+
+msgid "Мозамбік"
+msgstr ""
+
+msgid "М'янма"
+msgstr ""
+
+msgid "Намібія"
+msgstr ""
+
+msgid "Науру"
+msgstr ""
+
+msgid "Непал"
+msgstr ""
+
+msgid "Нідерланди"
+msgstr ""
+
+msgid "Нова Каледонія"
+msgstr ""
+
+msgid "Нова Зеландія"
+msgstr ""
+
+msgid "Нікарагуа"
+msgstr ""
+
+msgid "Нігер"
+msgstr ""
+
+msgid "Нігерія"
+msgstr ""
+
+msgid "Ніуе"
+msgstr ""
+
+msgid "Острів Норфолк"
+msgstr ""
+
+msgid "Північні Маріанські острови"
+msgstr ""
+
+msgid "Норвегія"
+msgstr ""
+
+msgid "Оман"
+msgstr ""
+
+msgid "Пакистан"
+msgstr ""
+
+msgid "Палан"
+msgstr ""
+
+msgid "Палестинська держава"
+msgstr ""
+
+msgid "Панама"
+msgstr ""
+
+msgid "Папуа-Нова Гвінея"
+msgstr ""
+
+msgid "Парагвай"
+msgstr ""
+
+msgid "Перу"
+msgstr ""
+
+msgid "Філіппіни"
+msgstr ""
+
+msgid "Піткерн"
+msgstr ""
+
+msgid "Польща"
+msgstr ""
+
+msgid "Португалія"
+msgstr ""
+
+msgid "Пуерто Ріко"
+msgstr ""
+
+msgid "Катар"
+msgstr ""
+
+msgid "Реюньйон"
+msgstr ""
+
+msgid "Румунія"
+msgstr ""
+
+msgid "Російська Федерація"
+msgstr ""
+
+msgid "Руанда"
+msgstr ""
+
+msgid "Сен-Бартельмі"
+msgstr ""
+
+msgid "Острови Святої Єлени, Вознесіння та Тристан-да-Кунья"
+msgstr ""
+
+msgid "Сент-Кітс і Невіс"
+msgstr ""
+
+msgid "Сент-Люсія"
+msgstr ""
+
+msgid "Сен-Мартен (французька частина)"
+msgstr ""
+
+msgid "Сен-П'єр і Мікелон"
+msgstr ""
+
+msgid "Сент-Вінсент і Гренадіни"
+msgstr ""
+
+msgid "Самоа"
+msgstr ""
+
+msgid "Сан-Маріно"
+msgstr ""
+
+msgid "Сан-Томе і Принсіпі"
+msgstr ""
+
+msgid "Саудівська Аравія"
+msgstr ""
+
+msgid "Сенегал"
+msgstr ""
+
+msgid "Сербія"
+msgstr ""
+
+msgid "Сейшельські острови"
+msgstr ""
+
+msgid "Сьєрра-Леоне"
+msgstr ""
+
+msgid "Сінгапур"
+msgstr ""
+
+msgid "Сінт-Маартен (Голландська частина)"
+msgstr ""
+
+msgid "Словаччина"
+msgstr ""
+
+msgid "Словенія"
+msgstr ""
+
+msgid "Соломонові острови"
+msgstr ""
+
+msgid "Сомалі"
+msgstr ""
+
+msgid "Південна Африка"
+msgstr ""
+
+msgid "Південна Джорджія та Південні Сандвічеві острови"
+msgstr ""
+
+msgid "Південний Судан"
+msgstr ""
+
+msgid "Іспанія"
+msgstr ""
+
+msgid "Шрі Ланка"
+msgstr ""
+
+msgid "Судан"
+msgstr ""
+
+msgid "Суринам"
+msgstr ""
+
+msgid "Шпіцберген і Ян-Маєн"
+msgstr ""
+
+msgid "Свазіленд"
+msgstr ""
+
+msgid "Швеція"
+msgstr ""
+
+msgid "Швейцарія"
+msgstr ""
+
+msgid "Сирійська Арабська Республіка"
+msgstr ""
+
+msgid "Тайвань, провінція Китаю"
+msgstr ""
+
+msgid "Таджикистан"
+msgstr ""
+
+msgid "Танзанія, Об'єднана Республіка"
+msgstr ""
+
+msgid "Таїланд"
+msgstr ""
+
+msgid "східний Тимор-Лешті"
+msgstr ""
+
+msgid "Йти"
+msgstr ""
+
+msgid "Токелау"
+msgstr ""
+
+msgid "Тонга"
+msgstr ""
+
+msgid "Тринідад і Тобаго"
+msgstr ""
+
+msgid "Туніс"
+msgstr ""
+
+msgid "Туреччина"
+msgstr ""
+
+msgid "Туркменістан"
+msgstr ""
+
+msgid "Теркс і Кайкос"
+msgstr ""
+
+msgid "Тувалу"
+msgstr ""
+
+msgid "Уганда"
+msgstr ""
+
+msgid "Об'єднані Арабські Емірати"
+msgstr ""
+
+msgid "Зовнішні малі острови США"
+msgstr ""
+
+msgid "Уругвай"
+msgstr ""
+
+msgid "Узбекистан"
+msgstr ""
+
+msgid "Вануату"
+msgstr ""
+
+msgid "Ватикан"
+msgstr ""
+
+msgid "Боліварська Республіка Венесуела"
+msgstr ""
+
+msgid "В'єтнам"
+msgstr ""
+
+msgid "Британські Віргінські острови"
+msgstr ""
+
+msgid "Американські Віргінські острови"
+msgstr ""
+
+msgid "Волліс і Футуна"
+msgstr ""
+
+msgid "Західна Сахара"
+msgstr ""
+
+msgid "Ємен"
+msgstr ""
+
+msgid "Замбія"
+msgstr ""
+
+msgid "Зімбабве"
+msgstr ""
+
+msgid "Неверное имя пользователя или пароль"
+msgstr ""
+
+msgid "Что-то пошло не так. Попробуйте снова"
+msgstr ""
+
+msgid "Smart Solutions"
+msgstr ""
+
+msgid "Вернуться назад"
+msgstr ""
+
+msgid "Вернуться в список пользователей"
+msgstr ""
+
+msgid "Мой профиль"
+msgstr ""
+
+msgid "Настройки"
+msgstr ""
+
+msgid "Выход"
+msgstr ""
+
+msgid "Обновить"
+msgstr ""
+
+msgid "Отменить"
+msgstr ""
+
+msgid "Сохранить"
+msgstr ""
+
+msgid "Войти на сайт."
+msgstr ""
+
+msgid "Имя пользователя:"
+msgstr ""
+
+msgid "Пароль:"
+msgstr ""
+
+msgid "Забыли пароль?"
+msgstr ""
+
+msgid "Войти"
+msgstr ""
+
+msgid "Профиль"
+msgstr ""
+
+msgid "Нажмите чтобы добавить файлы или перетащите их сюда."
+msgstr ""
+
+msgid "Главная страница"
+msgstr ""
+
+msgid "Пожалуйста, введите email"
+msgstr ""
+
+msgid "Неверный формат email"
+msgstr ""
+
+msgid "Пожалуйста, введите пароль"
+msgstr ""
+
+msgid "Пароли должны совпадать"
+msgstr ""
+
+msgid "Пароль должен содержать минимум 8 символов"
+msgstr ""

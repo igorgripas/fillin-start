@@ -1,0 +1,99 @@
+.center {
+  &__logo-company,
+  &__logo-page {
+    text-align: center;
+  }
+  &__logo-company {
+    padding-top: 15px;
+  }
+  &__logo-page {
+    margin-top: 15px;
+    img {
+      width: 135px;
+    }
+  }
+  &__content-wrap {
+    background: @body-bg;
+    padding: 10px 10px 20px;
+    margin-top: 5px;
+  }
+  &__title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 14px;
+    &:first-child {
+      margin-top: 0;
+    }
+    &.error {
+      color: @error;
+    }
+  }
+  &__content {
+    width: 260px;
+    margin: 12px auto 0;
+    &-alt {
+      width: 400px;
+    }
+    label {
+      display: inline-block;
+      color: @secondary-color;
+      margin-bottom: 5px;
+      font-size: 14px;
+    }
+    input[type="text"],
+    input[type="submit"],
+    input[type="password"] {
+      width: 100%;
+    }
+    .btn {
+      width: 100%;
+      margin-top: 26px;
+    }
+  }
+  &__content-row {
+    margin-top: 14px;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  &__content-error {
+    display: flex;
+    color: @error;
+    font-size: 14px;
+    white-space: nowrap;
+    font-weight: 600;
+    margin-top: -8px;
+    justify-content: center;
+    i {
+      margin-right: 7px;
+      font-size: 16px;
+    }
+  }
+  &__content-row_alt {
+    margin: 20px 0 0;
+    height: 20px;
+    a {
+      font-size: 14px;
+      margin-top: 2px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  &__content-result {
+    text-align: center;
+    div {
+      padding: 11px 0 24px;
+    }
+  }
+  &__head {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 19px;
+    margin-top: -2px;
+    & + .center__content-error {
+      margin-top: 0;
+    }
+  }
+}

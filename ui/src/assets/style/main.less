@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: @body-bg;
+  font: 400 @basic-size 'proximaNova';
+  color: @main-color;
+  padding-top: 60px;
+  box-sizing: border-box;
+  &.auth {
+    background: #fff;
+    padding: 0;
+  }
+  &>div {
+    min-height: 100%;
+    position: relative;
+    &>div {
+      position: absolute;
+      min-height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      &>div {
+        position: absolute;
+        min-height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+a {
+  transition: all 0.3s;
+  text-decoration: none;
+  color: @link-color;
+}
+.text-center {
+  text-align: center;
+  justify-content: center;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -56px;
+  flex: 1;
+}
+.wrapper:after {
+  content: "";
+  display: block;
+}
+.footer,
+.wrapper:after {
+  height: 56px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.highlight {
+  color: @theme-color;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.success {
+  color: @success;
+}
+.unsuccess {
+  color: @error;
+}
+
+.full-width {
+  width: 100%;
+  box-sizing: border-box;
+}
+.muted {
+  color: @muted-color !important;
+}
+
+h1 {
+  ._clearfix();
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  position: relative;
+  span {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 3px 0 0 10px;
+    display: inline-block;
+  }
+}
+@media (max-width: 610px) {
+  h1 {
+    white-space: normal;
+    font-size: 30px;
+    line-height: 25px;
+  }
+}
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ol {
+  counter-reset:li;
+  li {
+    list-style:none;
+    padding-left: 17px;
+    position: relative;
+    &:before {
+      content: counter(li)+".";
+      counter-increment: li;
+      position: absolute;
+      left: 0;
+    }
+  }
+
+}
+select::-ms-expand {
+  display: none;
+}
+.select-holder {
+  height: 30px;
+  border-radius: @radius;
+  background: @select-bg;
+  border: solid 1px @select-border;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  &:before {
+    content: "";
+    width: 26px;
+    height: 26px;
+    background: @theme-color;
+    border-radius: @radius;
+    position: absolute;
+    right: 2px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  i {
+    position: absolute;
+    right: 9px;
+    top: 12px;
+    font-size: 9px;
+  }
+  select {
+    padding: 0 30px 0 8px;
+    font-size: 18px;
+    height: 100%;
+    outline: none;
+    border: 0;
+    background: 0;
+    width: 100%;
+    font-weight: normal;
+    position: relative;
+    z-index: 2;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    cursor: pointer;
+  }
+}
+.input-holder {
+  position: relative;
+  display: inline-block;
+  .icon-date-range-icon {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .icon-exit {
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    font-size: 11px;
+    cursor: pointer;
+  }
+  input {
+    padding-right: 30px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+.ov-hidden {
+  overflow: hidden;
+}
+
+a {
+  cursor: pointer;
+}
+
+/*
+* Custom
+*/
+@import "partials/grid";
+@import "partials/fonts";
+@import "partials/variable";
+@import "partials/mixins";
+@import "partials/buttons";
+@import "partials/inputs";
+@import "partials/header";
+@import "partials/nav";
+@import "partials/footer";
+@import "partials/center";
+@import "partials/tooltip";
+@import "partials/breadcrumbs";
+@import "partials/aside";
+@import "partials/content";
+@import "partials/block";
+@import "partials/download";
+@import "partials/user";
+@import "partials/consider";
+@import "partials/upload";
+@import "partials/notification";
+@import "partials/status";
+@import "partials/popup";
+@import "partials/tab";
+@import "partials/side";
+@import "partials/check";
+@import "partials/switcher";
+@import "partials/vacation";
+@import "partials/comment";
+@import "partials/search";
+@import "partials/progress";
+@import "partials/sort";
+@import "partials/warning";
+@import "partials/datetime";

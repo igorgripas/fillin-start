@@ -1,0 +1,70 @@
+.tooltip {
+  background: @tooltip-bg;
+  position: absolute;
+  box-shadow: 0 4px 10px 0 rgba(81, 81, 77, 0.63);
+  border-radius: @radius;
+  display: none;
+  &.active {
+    display: block;
+  }
+  &.top-right {
+    top: 100%;
+    right: -10px;
+    margin-top: -5px;
+    &:before {
+      content: "";
+      position: absolute;
+      border: 5px solid transparent;
+      border-bottom: 11px solid @tooltip-bg;
+      bottom: 100%;
+      right: 9px;
+      z-index: 1;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      width: 2px;
+      height: 7px;
+      box-shadow: 0 0 7px 0 rgba(81, 81, 77, 0.93);
+      bottom: 101%;
+      right: 13px;
+      z-index: 0;
+    }
+  }
+  &__menu {
+    list-style: none;
+    li {
+      margin-top: 10px;
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+    a {
+      position: relative;
+      display: inline-block;
+      padding-left: 25px;
+      height: 20px;
+      font-size: 16px;
+      font-weight: 600;
+      white-space: nowrap;
+      i {
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        position: absolute;
+        left: 0;
+        width: 20px;
+        text-align: center;
+        font-size: 18px;
+        color: @secondary-color;
+      }
+    }
+  }
+  &__wrapper {
+    position: relative;
+    z-index: 2;
+    background: @tooltip-bg;
+    padding: 21px 20px;
+    border-radius: @radius;
+  }
+}

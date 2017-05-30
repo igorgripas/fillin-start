@@ -1,0 +1,56 @@
+{
+  "extends": "airbnb",
+
+  "parser": "babel-eslint",
+
+  "rules": {
+    "indent": [2, 4, { "SwitchCase": 1 }],
+    "max-len": [2, 120, 4, {
+      "ignoreUrls": true,
+      "ignoreComments": false
+    }],
+    "jsx-quotes": [2, "prefer-double"],
+    "no-return-assign": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "class-methods-use-this" :0,
+    "linebreak-style": 0,
+    "react/require-default-props" :0,
+    "react/jsx-indent-props": [2, 4],
+    "react/jsx-indent": [2, 4],
+    "react/jsx-max-props-per-line": [2, {"maximum": 3}],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-no-bind": [2, {
+      "ignoreRefs": true
+    }],
+    "react/sort-comp": [2, {
+      "order": [
+        "static-methods",
+        "lifecycle",
+        "/^handle.+$/",
+        "/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/",
+        "everything-else",
+        "/^render.+$/",
+        "render"
+      ]
+    }]
+  },
+
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true,
+    "es6": true
+  },
+
+  "settings": {
+    "import/resolver": { "webpack": { "config" : "webpack.config.dev.js"} }
+  },
+
+  "globals": {
+    "$": true,
+    "ga": true,
+    "l": true,
+    "nl": true,
+    "sprintf": true
+  }
+}

@@ -1,0 +1,43 @@
+.search {
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+  &__input {
+    position: relative;
+    width: 100%;
+    i {
+      position: absolute;
+      left: 5px;
+      top: 7px;
+      z-index: 2;
+    }
+    input {
+      padding-left: 25px;
+      height: 32px;
+      width: 100%;
+    }
+
+  }
+  &__select {
+    margin-left: 10px;
+    width: 20%;
+  }
+  &__check {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .search {
+    &__wrapper {
+      display: block;
+    }
+    &__input,
+    &__select,
+    &__check {
+      width: 100%;
+      margin: 10px 0 0;
+    }
+  }
+}

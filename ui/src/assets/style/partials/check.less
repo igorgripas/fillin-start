@@ -1,0 +1,22 @@
+.check {
+  &__wrapper {
+    border-radius: @radius;
+    background-color: @btn-alt-bg;
+    padding: 4px 10px;
+    display: inline-block;
+  }
+  &__item {
+    font-size: 14px;
+    color: @main-color;
+    float: left;
+    margin-left: 15px;
+    &:first-child {
+      margin-left: 0;
+    }
+    i {
+      color: @success;
+      margin-right: 4px;
+      font-size: 12px;
+    }
+  }
+}
